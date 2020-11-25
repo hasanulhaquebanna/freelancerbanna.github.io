@@ -1,0 +1,93 @@
+body
+	{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		overflow-x: hidden; /* prevent horizontal scrollbar from appearing */
+	}
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.navbar{
+    background: #32c0ea4d;
+
+}
+.navbar-brand {
+    line-height: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.navbar-nav a,
+.navbar-nav button{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.col-md-offset-2{
+    margin-top: 120px;
+}
+#home {
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(90deg, rgba(16, 12, 12, 0.68), rgba(16, 12, 12, 0.68)), url(../images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+#home h1 {
+    font-weight: 800;
+    font-size: 45px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+#home h1 span {
+    color: #32c0ea;
+    font-weight: bold;
+    font-size: 50px;
+}
+#home .home-hyper {
+    color: #33c0ea;
+    font-size: 40px;
+    font-style: italic;
+}
+.element {
+    height: 60px;
+    font-weight: 900;
+    font-size: 28px;
+    transform: translateX(10px);
+    word-spacing: 3px;
+    color: #6bf5e8c2;
+    text-shadow: -1px -1px #484746, -2px -2px #5d544b, -3px -3px #1b1b11, -4px -4px #271515, -6px -6px #232015, -7px -7px #231616, -8px -8px #251b1b, -16px 18px 52px #54739c;
+}
+#copyright{
+    overflow: hidden;
+    z-index: 100;
+    background: #32c0ea4d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
